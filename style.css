@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+
+/* global styling */
+
+body{
+    font-family: Tasa Orbiter;
+    background-color: #F1E0C5;
+    padding: 0;
+    margin: 0; 
+    overflow-x: hidden;
+    }
+
+.subtitle{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.subtext{
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+/* general text area */
+
+.gencontainer{
+  padding: 1vh;
+  padding-left: 10vh;
+}
+
+
+/* navbar styling */
+.navbar {
+  background-color: #7389AE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 70px;
+
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.logo a{
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+.icon-placeholder {
+  width: 32px;
+  height: 32px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/* footer styling */
+
+.footer {
+  background-color: #7389AE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 70px;
+  color: white;
+  
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.90rem;
+  transition: opacity 0.3s ease;
+}
+
+.footer-left{
+  font-size: 0.90rem;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+}
+
+
+/* split container */
+
+.splitbox{
+    display: flex;
+}
+
+.splittext, .splitimage{
+    flex: 1;
+    padding: 40px;
+}
+
+.splitimage img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Copyright Akain Innovation 2026 */
